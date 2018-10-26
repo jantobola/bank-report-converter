@@ -18,7 +18,7 @@ if ( process.defaultApp || /[\\/]electron-prebuilt[\\/]/.test(process.execPath) 
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 600, height: 450, show: false
+    width: 600, height: 450, show: false, title: "Money Report"
   });
 
   // and load the index.html of the app.
@@ -74,9 +74,9 @@ ipcMain.on('ondragstart', (event, filePath) => {
 app.on('window-all-closed', () => {
   // On macOS it is common for applications and their menu bar
   // to stay active until the user quits explicitly with Cmd + Q
-  if (process.platform !== 'darwin') {
+  // if (process.platform !== 'darwin') {
     app.quit();
-  }
+  // }
 });
 
 app.on('activate', () => {

@@ -1,5 +1,5 @@
 {
-  "name": "basic-electron-react-boilerplate",
+  "name": "moneyreport",
   "version": "0.7.0",
   "description": "Minimal and modern react+electron+webpack boilerplate",
   "author": "Phillip Barbiero",
@@ -21,12 +21,12 @@
     "babel-core": "^6.24.1",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-es2016": "",
+    "babel-preset-es2016": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babili-webpack-plugin": "^0.1.2",
     "css-loader": "^0.28.1",
     "electron": "^1.7.8",
-    "electron-packager": "^9.1.0",
+    "electron-packager": "12.1.0",
     "extract-text-webpack-plugin": "^3.0.1",
     "file-loader": "^1.1.5",
     "html-webpack-plugin": "^2.28.0",
@@ -35,6 +35,8 @@
     "react-file-drop": "^0.2.7",
     "style-loader": "^0.19.0",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.4.5",
+    "csvtojson": "^2.0.8",
+    "iconv-lite": "^0.4.24"
   }
 }
