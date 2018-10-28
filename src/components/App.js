@@ -31,11 +31,12 @@ class App extends Component {
         return path.join(basePath, ...paths);
     }
 
-    getCategory(generalDescription, originatorDescription) {
+    getCategory(systemDescription, generalDescription, originatorDescription) {
         for (let key in this.categories) {
             let category = this.categories[key];
             for (let tokens of category) {
-                if (generalDescription.toLowerCase().indexOf(tokens.toLowerCase()) !== -1 ||
+                if (systemDescription.toLowerCase().indexOf(tokens.toLowerCase()) !== -1 ||
+                    generalDescription.toLowerCase().indexOf(tokens.toLowerCase()) !== -1 ||
                     originatorDescription.toLowerCase().indexOf(tokens.toLowerCase()) !== -1) {
                     return key;
                 }
@@ -72,7 +73,7 @@ class App extends Component {
                     systemDescription: r['field13'].trim(),
                     originatorDescription: r['field14'].trim(),
                     generalDescription: r['field16'].trim(),
-                    category: this.getCategory(r['field16'].trim(), r['field14'].trim())
+                    category: this.getCategory(r['field13'].trim(), r['field16'].trim(), r['field14'].trim())
                 }
             });
             reports.push(struct);

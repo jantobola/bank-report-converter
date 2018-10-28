@@ -1,10 +1,86 @@
 {
   "Housing": [
     "ikea",
-    "kika"
+    "kika",
+    "sconto",
+    "najem",
+    "najemne",
+    "asko",
+    "pre"
+  ],
+  "ATM": [
+    "z bankomatu"
   ],
   "Food": [
     "damejidlo",
-    "rohlik"
+    "rohlik",
+    "kfc",
+    "billa",
+    "mcdonalds",
+    "makro",
+    "albert",
+    "bageterie",
+    "pizza"
+  ],
+  "Clothes": [
+    "wojas",
+    "terranova",
+    "h & m",
+    "h&m",
+    "shoebox",
+    "celio",
+    "c&a"
+  ],
+  "Debt": [
+    "splátka"
+  ],
+  "Education": [
+    "pluralsight"
+  ],
+  "Electronics": [
+    "alza"
+  ],
+  "Fees": [
+    "spravování úvěru",
+    "úvěr",
+    "vedení účtu",
+    "poplatek"
+  ],
+  "Health": [
+    "lekarna",
+    "lékárna",
+    "grandoptical"
+  ],
+  "IT Fun": [
+    "netflix",
+    "spotify",
+    "aws",
+    "xbox",
+    "google*play",
+    "google *play",
+    "uloz.to",
+    "webshare",
+    "hbo"
+  ],
+  "Salary": [
+    "aevi",
+    "2n"
+  ],
+  "Sport": [
+    "multisport",
+    "fitness"
+  ],
+  "Taxes": [
+    "vzp zaloha",
+    "cssz zaloha",
+    "dph"
+  ],
+  "Transfer": [
+    "tobola jan"
+  ],
+  "Traveling": [
+    "benzina",
+    "mpla.cz",
+    "uber"
   ]
 }
