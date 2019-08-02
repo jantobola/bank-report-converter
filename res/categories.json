@@ -6,10 +6,17 @@
     "najem",
     "najemne",
     "asko",
-    "pre"
+    "pre",
+    "dvorecka",
+    "lukaliving",
+    "hornbach",
+    "jysk",
+    "obi ",
+    "1020541167/6100"
   ],
   "ATM": [
-    "z bankomatu"
+    "z bankomatu",
+    "atm"
   ],
   "Food": [
     "damejidlo",
@@ -17,10 +24,27 @@
     "kfc",
     "billa",
     "mcdonalds",
+    "MCDONALD S",
     "makro",
     "albert",
     "bageterie",
-    "pizza"
+    "pizza",
+    "sodexo",
+    "tesco",
+    "zen",
+    "fruitisimo",
+    "pizzeria",
+    "puzzlesalads",
+    "asport",
+    "crosscafe",
+    "lidl",
+    "hospoda",
+    "globus",
+    "relay",
+    "sakuras",
+    "burger",
+    "urban fresh",
+    "pivovar"
   ],
   "Clothes": [
     "wojas",
@@ -29,13 +53,21 @@
     "h&m",
     "shoebox",
     "celio",
-    "c&a"
+    "c&a",
+    "sportisimo",
+    "decatlon",
+    "PULL  & BEAR",
+    "PULL & BEAR",
+    "PULL&BEAR",
+    "T.M LEWIN"
   ],
   "Debt": [
     "splátka"
   ],
-  "Education": [
-    "pluralsight"
+  "Education/Work": [
+    "pluralsight",
+    "aws",
+    "grammarly"
   ],
   "Electronics": [
     "alza"
@@ -54,13 +86,14 @@
   "IT Fun": [
     "netflix",
     "spotify",
-    "aws",
     "xbox",
     "google*play",
     "google *play",
+    "google play",
     "uloz.to",
     "webshare",
-    "hbo"
+    "hbo",
+    "steam"
   ],
   "Salary": [
     "aevi",
@@ -71,16 +104,35 @@
     "fitness"
   ],
   "Taxes": [
-    "vzp zaloha",
-    "cssz zaloha",
-    "dph"
+    "1011-17922511/0710",
+    "1112005521/0710",
+    "721-77626511/0710",
+    "705-77626511/0710"
   ],
   "Transfer": [
-    "tobola jan"
+    "tobola jan",
+    "43-4508450297/0100",
+    "115-4364980247/0100"
   ],
-  "Traveling": [
+  "Traveling/Fun": [
     "benzina",
     "mpla.cz",
-    "uber"
+    "uber",
+    "parking",
+    "water city",
+    "slevomat",
+    "parki",
+    "cinema",
+    "koupaliste",
+    "omv",
+    "hotel"
+  ],
+  "Gifts": [
+    "gift shop",
+    "kvetiny",
+    "Nanu-Nana"
+  ],
+  "Telco": [
+    "vodafone"
   ]
 }

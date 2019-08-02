@@ -31,13 +31,14 @@ class App extends Component {
         return path.join(basePath, ...paths);
     }
 
-    getCategory(systemDescription, generalDescription, originatorDescription) {
+    getCategory(beneficiaryAccount, systemDescription, generalDescription, originatorDescription) {
         for (let key in this.categories) {
             let category = this.categories[key];
             for (let tokens of category) {
-                if (systemDescription.toLowerCase().indexOf(tokens.toLowerCase()) !== -1 ||
-                    generalDescription.toLowerCase().indexOf(tokens.toLowerCase()) !== -1 ||
-                    originatorDescription.toLowerCase().indexOf(tokens.toLowerCase()) !== -1) {
+                if ((generalDescription !== "" && generalDescription.toLowerCase().indexOf(tokens.toLowerCase()) !== -1) ||
+                    (originatorDescription !== "" && originatorDescription.toLowerCase().indexOf(tokens.toLowerCase()) !== -1) ||
+                    (systemDescription !== "" && systemDescription.toLowerCase().indexOf(tokens.toLowerCase()) !== -1) ||
+                    (beneficiaryAccount !== "" && beneficiaryAccount.toLowerCase().indexOf(tokens.toLowerCase()) !== -1)) {
                     return key;
                 }
             }
@@ -73,7 +74,7 @@ class App extends Component {
                     systemDescription: r['field13'].trim(),
                     originatorDescription: r['field14'].trim(),
                     generalDescription: r['field16'].trim(),
-                    category: this.getCategory(r['field13'].trim(), r['field16'].trim(), r['field14'].trim())
+                    category: this.getCategory(r['field3'].trim(), r['field13'].trim(), r['field16'].trim(), r['field14'].trim())
                 }
             });
             reports.push(struct);
